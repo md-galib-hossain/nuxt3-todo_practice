@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: "2024-04-03",
   devtools: { enabled: true },
+
   css: ["~/assets/css/tailwind.css"],
   modules: ["@nuxtjs/tailwindcss"],
   runtimeConfig: {
@@ -9,6 +10,11 @@ export default defineNuxtConfig({
       api: process.env.NUXT_PUBLIC_API,
     },
   },
+//   routeRules: {
+// '/': {ssr:false},
+
+
+//   },
   app: {
     head: {
       title: "Todo App",
