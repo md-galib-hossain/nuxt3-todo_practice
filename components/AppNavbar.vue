@@ -8,7 +8,7 @@
           <nuxt-link to="/todos">
             <h1 class="text-white text-lg font-bold text-center">Todo</h1>
           </nuxt-link>
-          <nuxt-link to="/have-done">
+          <nuxt-link to="/">
             <h1 class="text-white text-lg font-bold text-center">Have Done</h1>
           </nuxt-link>
         </div>
